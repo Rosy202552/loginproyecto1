@@ -16,4 +16,4 @@ def login_view(request):
             return JsonResponse({'status': 'fail'}, status=401)
 
 def home(request):
-    return HttpResponse("Bienvenido a la página principal")
+    return HttpResponse("Bienvenido a la página principal Chimalhuacán")
